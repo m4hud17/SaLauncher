@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Sa Launcher</string>
+    <string name="sa_command">Enter a command...</string>
+    <string name="sa_button">Execute!</string>
+    <string name="sa_lbl_list">lblList</string>
+    <string name="sa_pkg_list">pkgList</string>
+
+    <string name="sa_get_help_1">h</string>
+    <string name="sa_get_help_2">help</string>
+    <string name="sa_get_list">list</string>
+    <string name="sa_set_macro">set</string>
+    <string name="sa_update">update</string>
+</resources>

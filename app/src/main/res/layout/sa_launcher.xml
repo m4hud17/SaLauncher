@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".saLauncher"
+    >
+
+    <EditText
+        android:id="@+id/sa_command"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/sa_command"
+        android:singleLine="true"
+        android:layout_alignParentBottom="true"
+        />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical"
+        android:fillViewport="true"
+        android:layout_above="@id/sa_command"
+        >
+
+        <TextView
+            android:id="@+id/sa_monitor"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#AA000000"
+            />
+    </ScrollView>
+    <!--
+        -->
+    <!--
+</ScrollView>
+-->
+</RelativeLayout>
